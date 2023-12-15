@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: white;
+    cursor: default;
+}
+
+nav {
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+
+nav a {
+    background: black;
+    text-decoration: none;
+    color: red;
+    border: 3px solid red;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+nav a:hover {
+    cursor: pointer;
+    background: red;
+    color: black;
+}
+
+table {
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    text-transform: uppercase;
+    background: red;
+    color: black;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 2px solid red;
+}
+
+tr {
+    background: black;
+    color: red;
+}
+
+tr:hover {
+    background: red;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+}
+
+label {
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: red;
+}
+
+input {
+    color: black;
+    background: red;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    font-weight: 600;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+button {
+    margin: 20px;
+    height: 30px;
+    width: 70px;
+    background: red;
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+button:hover {
+    cursor: pointer;
+    background: black;
+    color: red;
+    border: 3px solid red;
+}
+
+#notification {
+    color: red;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 30px;
+}
